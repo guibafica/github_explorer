@@ -64,7 +64,7 @@ export const Repositories = styled.div`
     transition: transform 0.4s;
 
     &:hover {
-      transform: translateX(30px);
+      transform: translateX(40px);
       background: ${shade(0.03, '#fff')};
     }
 
@@ -79,7 +79,8 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
