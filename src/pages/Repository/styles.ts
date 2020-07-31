@@ -124,3 +124,11 @@ export const Issues = styled.div`
     }
   }
 `;
+
+export const Carregando = styled.p`
+  font-size: 32px;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin-top: 30%;
+  margin-left: 50%;
+`;
